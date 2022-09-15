@@ -51,7 +51,7 @@ To run project locally:
 ### CSRF Protection
 
 1. the verifyCSRF middleware is responsible for csrf Protection
-2. this middleware compare the csrf token coming from the X-XSRF-TOKEN custom http header and the csrg token store in the payload of jwt access token
-3. if they are the same this middleware gives the control to the next request handler  
+2. this middleware compare the csrf token coming from the X-XSRF-TOKEN custom http header and the csrf token stored in the payload of the jwt access token
+3. if they are the same this middleware gives the control to the next request handler. 
 
 
