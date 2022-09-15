@@ -45,7 +45,7 @@ To run project locally:
 
 ### protected routes (/posts GET,POST | /posts/:id GET,DELETE,PUT)
 - posts routes are just an example of protected routes , hence i didnt add a post model  and i didnt complete post controllers functions, you can add your own protected routes.
-- those routes to respond properly , the request must have an authorization header containing the access token (Bearer <accesToken>) also a (X-XSRF-TOKEN) header containing the csrf token value (this token is the one stored in the XSRF-TOKEN cookie when users logs in)  
+- those routes to respond properly , the request must have an authorization header containing the access token (Bearer accesToken) also a (X-XSRF-TOKEN) header containing the csrf token value (this token is the one stored in the XSRF-TOKEN cookie when users logs in)  
 
 
 ### CSRF Protection
